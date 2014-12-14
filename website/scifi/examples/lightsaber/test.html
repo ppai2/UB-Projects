@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sci-Fi</title>
+  <link rel="stylesheet" href="css/reuters.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/themes/smoothness/jquery-ui.css">
+  <script src="js/reuters.3.js"></script>
+  <script src="../../core/Core.js"></script>
+  <script src="../../core/AbstractManager.js"></script>
+  <script src="../../managers/Manager.jquery.js"></script>
+  <script src="../../core/Parameter.js"></script>
+  <script src="../../core/ParameterStore.js"></script>
+  <script src="../../core/AbstractWidget.js"></script>
+  <script src="widgets/ResultWidget.js"></script>
+  <script src="widgets/TechWidget.js"></script>
+  <script src="widgets/BlogWidget.js"></script>
+  <script src="../../widgets/jquery/PagerWidget.js"></script>
+    <script src="widgets/CurrentSearchWidget.js"></script>
+  <script src="../../core/AbstractTextWidget.js"></script>
+  <script src="widgets/TextWidget.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <div id="header">
+      <h2>Current Selection</h2>
+      <ul id="selection"></ul>
+
+      <h2>Search</h2>
+      <span id="search_help">(press ESC to close suggestions)</span>
+      <ul id="search">
+        <input type="text" id="query" name="query" autocomplete="off">
+      </ul><br />
+	  
+	  <form action="">
+	    <input type="radio" id="all" name="tag" value="All" checked="checked">All
+		<input type="radio" id="author" name="tag" value="Author">Author
+		<input type="radio" id="film" name="tag" value="Film">Film
+		<input type="radio" id="character" name="tag" value="Character">Character
+		<input type="radio" id="theme" name="tag" value="Theme">Theme
+	  </form><br />
+	  <button type="button" id="search" onclick="doSearch();">Search</button>
+	  <button type="button" id="clearradios" onclick="clearInput();">Reset</button>
+    </div>
+
+    <div id="right" class="right">
+      <div id="result">
+        <div id="navigation">
+          <ul id="pager"></ul>
+          <div id="pager-header"></div>
+        </div>
+        <div id="docs"></div>
+      </div>
+    </div>
+
+    <div id="left" class="left">
+      
+		
+      
+
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</body>
+</html>

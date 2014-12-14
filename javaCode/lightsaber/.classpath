@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="F:/Dropbox/padhai_wtf/MS Sem 1/IR/Project 3/boilerpipe-1.2.0/boilerpipe-1.2.0.jar"/>
+	<classpathentry kind="lib" path="F:/Dropbox/padhai_wtf/MS Sem 1/IR/Project 3/lucene-core-4.10.2.jar"/>
+	<classpathentry kind="lib" path="F:/Dropbox/padhai_wtf/MS Sem 1/IR/solr-4.10.1/dist/solr-core-4.10.1.jar"/>
+	<classpathentry kind="lib" path="F:/Dropbox/padhai_wtf/MS Sem 1/IR/solr-4.10.1/dist/solr-solrj-4.10.1.jar"/>
+	<classpathentry kind="lib" path="F:/Dropbox/padhai_wtf/MS Sem 1/IR/solr-4.10.1/dist/solrj-lib/commons-io-2.3.jar"/>
+	<classpathentry kind="lib" path="F:/Dropbox/padhai_wtf/MS Sem 1/IR/solr-4.10.1/dist/solrj-lib/httpclient-4.3.1.jar"/>
+	<classpathentry kind="lib" path="F:/Dropbox/padhai_wtf/MS Sem 1/IR/solr-4.10.1/dist/solrj-lib/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="F:/Dropbox/padhai_wtf/MS Sem 1/IR/solr-4.10.1/dist/solrj-lib/noggit-0.5.jar"/>
+	<classpathentry kind="lib" path="F:/Dropbox/padhai_wtf/MS Sem 1/IR/solr-4.10.1/dist/solrj-lib/slf4j-api-1.7.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
